@@ -1,166 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-* {
-font-family: 'Cabin Sketch', cursive;
-margin: 0;
-padding: 0;
-}
-html, body {
-height:100&#37;;
-width:100%;
-}
-#h1{
-  font-color: #4a148c;
-   position: center;
-}
-
-#h5{
-  font-color: #4a148c;
-}
-
-nav ul a,
-nav .brand-logo {
-  font-family: 'Cabin Sketch', cursive;
-  height: auto;
-  color: #9c27b0;
-}
-  .parallax-container .section {
-    font-family: 'Cabin Sketch', cursive;
-    width: 100%;
-  }
-
-nav ul a span.badge {
-  display: inline-block;
-  float: none;
-  margin-left: 4px;
-  line-height: 22px;
-  height: 22px;
-}
-
-nav {
-    color: #fff;
-    background-color: #7b1fa2;
-    width: 100%;
-    height: 56px;
-    line-height: 56px;
-}
-element.style {
-}
-
-.nav-wrapper {
-    font-family: 'Cabin Sketch', cursive;
-    background-color: #4a148c;
-}
-
-}
-.nav-wrapper {
-    background-color: #673AB7 !important;
-}
-
-.side-nav span.badge.new,
-.collapsible span.badge.new {
-  position: relative;
-  background-color: transparent;
-}
-
-.side-nav span.badge.new::before,
-.collapsible span.badge.new::before {
-  content: '';
-  position: absolute;
-  top: 10px;
-  right: 0;
-  bottom: 10px;
-  left: 0;
-  background-color: #26a69a;
-  border-radius: 2px;
-  z-index: -1;
-}
-
-.collapsible span.badge.new {
-  z-index: 1;
-}
-
-nav ul a {
-    transition: background-color .3s;
-    font-size: 1rem;
-    color: #9c27b0;
-    display: block;
-    padding: 0 15px;
-    cursor: pointer;
-}
-@media only screen and  (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-#white{
-    color: #26c6da;
-    background-color: #ee6e73;
-    width: 100%;
-    height: 56px;
-    line-height: 56px;
-}
-
-html {
-  line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: /*rgba(0, 0, 0, 0.87) */#ab47bc;
-}
-
-h1 {
-   color: #22d3ff ;
-}
-
-h5 {
-   color: #22d3ff ;
-}
-ul {
-padding: 0 0 0 10px;
-margin: 0;
-}
-li {
-padding: 2px 0;
-margin: 10;
-}
-
-footer.page-footer {
-  margin: 0;
-   color:#7b1fa2
-}
-
-br {
-   display: block;
-   margin: 1px 0;
-}
-
-.image {
-  float: right;
-}
-
 /*!
  * Materialize v0.97.8 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
@@ -4225,7 +4062,7 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  color:#673ab7;
+  color: #fff;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
@@ -4281,7 +4118,7 @@ nav ul li {
 }
 
 nav ul li.active {
-  background-color: #673ab7 /*rgba(0, 0, 0, 0.1)*/;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav ul a {
@@ -4300,7 +4137,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 nav ul a:hover {
-  background-color: #673ab7 /*rgba(0, 0, 0, 0.1)*/;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav ul.left {
@@ -4410,7 +4247,7 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #673ab7 /*rgba(0, 0, 0, 0.87)*/;
+  color: rgba(0, 0, 0, 0.87) #ab47bc;
 }
 
 @media only screen and (min-width: 0) {
@@ -6163,7 +6000,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field label {
-  color: #9e9e9e; 
+  color: #9e9e9e;
   position: absolute;
   top: 0.8rem;
   left: 0;
